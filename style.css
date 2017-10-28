@@ -1,0 +1,60 @@
+nav {
+  padding: 0;
+  display: flex;
+  right: 0;
+  font-size: 150%;
+  overflow: hidden;
+}
+
+nav ul li {
+  text-align: right;
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+  list-style-type: none;
+}
+
+nav ul li:first-child {
+  font-weight: bold;
+}
+
+body {
+  font-family: Helvetica;
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #FFC184;
+}
+
+.intro {
+  margin: 20px;
+  padding: 20px;
+}
+
+#intro-text {
+  margin-top: 100px;
+}
+
+.alexz {
+  display: block;
+  border-radius: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 250%;
+  text-align: center;
+}
+
+.socials {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 20px;
+  font-size: 5em;
+}
+
+.about {
+  margin: 50px auto;
+}
